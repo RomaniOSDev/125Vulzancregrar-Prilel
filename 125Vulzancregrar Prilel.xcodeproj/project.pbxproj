@@ -3,33 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		74185C602F75BF4C00B6CF25 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C2E2F75BF4C00B6CF25 /* AppLinks.swift */; };
+		74185C612F75BF4C00B6CF25 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C2F2F75BF4C00B6CF25 /* GameModels.swift */; };
+		74185C622F75BF4C00B6CF25 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C312F75BF4C00B6CF25 /* AppStorage.swift */; };
+		74185C632F75BF4C00B6CF25 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C332F75BF4C00B6CF25 /* AppColors.swift */; };
+		74185C642F75BF4C00B6CF25 /* PuzzleDoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C362F75BF4C00B6CF25 /* PuzzleDoorView.swift */; };
+		74185C652F75BF4C00B6CF25 /* PuzzleDoorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C372F75BF4C00B6CF25 /* PuzzleDoorViewModel.swift */; };
+		74185C662F75BF4C00B6CF25 /* RelicHuntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C392F75BF4C00B6CF25 /* RelicHuntView.swift */; };
+		74185C672F75BF4C00B6CF25 /* RelicHuntViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C3A2F75BF4C00B6CF25 /* RelicHuntViewModel.swift */; };
+		74185C682F75BF4C00B6CF25 /* TribalTrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C3C2F75BF4C00B6CF25 /* TribalTrailView.swift */; };
+		74185C692F75BF4C00B6CF25 /* TribalTrailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C3D2F75BF4C00B6CF25 /* TribalTrailViewModel.swift */; };
+		74185C6A2F75BF4C00B6CF25 /* ActivityRouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C3F2F75BF4C00B6CF25 /* ActivityRouterView.swift */; };
+		74185C6B2F75BF4C00B6CF25 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C412F75BF4C00B6CF25 /* ExploreView.swift */; };
+		74185C6C2F75BF4C00B6CF25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C432F75BF4C00B6CF25 /* HomeView.swift */; };
+		74185C6D2F75BF4C00B6CF25 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C452F75BF4C00B6CF25 /* MainTabView.swift */; };
+		74185C6E2F75BF4C00B6CF25 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C472F75BF4C00B6CF25 /* OnboardingView.swift */; };
+		74185C6F2F75BF4C00B6CF25 /* QuestLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C492F75BF4C00B6CF25 /* QuestLogView.swift */; };
+		74185C702F75BF4C00B6CF25 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C4B2F75BF4C00B6CF25 /* ResultView.swift */; };
+		74185C712F75BF4C00B6CF25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C4D2F75BF4C00B6CF25 /* SettingsView.swift */; };
+		74185C722F75BF4C00B6CF25 /* AdventureBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C502F75BF4C00B6CF25 /* AdventureBackground.swift */; };
+		74185C732F75BF4C00B6CF25 /* AdventureStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C512F75BF4C00B6CF25 /* AdventureStyles.swift */; };
+		74185C742F75BF4C00B6CF25 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C522F75BF4C00B6CF25 /* PrimaryButton.swift */; };
+		74185C752F75BF4C00B6CF25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C552F75BF4C00B6CF25 /* AppDelegate.swift */; };
+		74185C762F75BF4C00B6CF25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C572F75BF4C00B6CF25 /* ContentView.swift */; };
+		74185C772F75BF4C00B6CF25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C5D2F75BF4C00B6CF25 /* SceneDelegate.swift */; };
+		74185C782F75BF4C00B6CF25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74185C5E2F75BF4C00B6CF25 /* ViewController.swift */; };
+		74185C792F75BF4C00B6CF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74185C562F75BF4C00B6CF25 /* Assets.xcassets */; };
+		74185C7B2F75BF4C00B6CF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74185C5A2F75BF4C00B6CF25 /* LaunchScreen.storyboard */; };
+		74185C7C2F75BF4C00B6CF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74185C5C2F75BF4C00B6CF25 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2687A60EE5B4DBB97847BD13 /* Pods-125Vulzancregrar Prilel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-125Vulzancregrar Prilel.debug.xcconfig"; path = "Target Support Files/Pods-125Vulzancregrar Prilel/Pods-125Vulzancregrar Prilel.debug.xcconfig"; sourceTree = "<group>"; };
 		74185B272F75AB4600B6CF25 /* 125Vulzancregrar Prilel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "125Vulzancregrar Prilel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74185C2E2F75BF4C00B6CF25 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		74185C2F2F75BF4C00B6CF25 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		74185C312F75BF4C00B6CF25 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		74185C332F75BF4C00B6CF25 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		74185C362F75BF4C00B6CF25 /* PuzzleDoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDoorView.swift; sourceTree = "<group>"; };
+		74185C372F75BF4C00B6CF25 /* PuzzleDoorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDoorViewModel.swift; sourceTree = "<group>"; };
+		74185C392F75BF4C00B6CF25 /* RelicHuntView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicHuntView.swift; sourceTree = "<group>"; };
+		74185C3A2F75BF4C00B6CF25 /* RelicHuntViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicHuntViewModel.swift; sourceTree = "<group>"; };
+		74185C3C2F75BF4C00B6CF25 /* TribalTrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribalTrailView.swift; sourceTree = "<group>"; };
+		74185C3D2F75BF4C00B6CF25 /* TribalTrailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribalTrailViewModel.swift; sourceTree = "<group>"; };
+		74185C3F2F75BF4C00B6CF25 /* ActivityRouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRouterView.swift; sourceTree = "<group>"; };
+		74185C412F75BF4C00B6CF25 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		74185C432F75BF4C00B6CF25 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		74185C452F75BF4C00B6CF25 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		74185C472F75BF4C00B6CF25 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74185C492F75BF4C00B6CF25 /* QuestLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestLogView.swift; sourceTree = "<group>"; };
+		74185C4B2F75BF4C00B6CF25 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		74185C4D2F75BF4C00B6CF25 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74185C502F75BF4C00B6CF25 /* AdventureBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureBackground.swift; sourceTree = "<group>"; };
+		74185C512F75BF4C00B6CF25 /* AdventureStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureStyles.swift; sourceTree = "<group>"; };
+		74185C522F75BF4C00B6CF25 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		74185C552F75BF4C00B6CF25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74185C562F75BF4C00B6CF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74185C572F75BF4C00B6CF25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74185C582F75BF4C00B6CF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74185C592F75BF4C00B6CF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74185C5B2F75BF4C00B6CF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74185C5D2F75BF4C00B6CF25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74185C5E2F75BF4C00B6CF25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FA0178E6CC1C94915055EFC /* Pods-125Vulzancregrar Prilel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-125Vulzancregrar Prilel.release.xcconfig"; path = "Target Support Files/Pods-125Vulzancregrar Prilel/Pods-125Vulzancregrar Prilel.release.xcconfig"; sourceTree = "<group>"; };
+		EFB39D13701E30B49AB40324 /* Pods_125Vulzancregrar_Prilel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_125Vulzancregrar_Prilel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		74185B392F75AB4700B6CF25 /* Exceptions for "125Vulzancregrar Prilel" folder in "125Vulzancregrar Prilel" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 74185B262F75AB4600B6CF25 /* 125Vulzancregrar Prilel */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		74185B292F75AB4600B6CF25 /* 125Vulzancregrar Prilel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				74185B392F75AB4700B6CF25 /* Exceptions for "125Vulzancregrar Prilel" folder in "125Vulzancregrar Prilel" target */,
-			);
-			path = "125Vulzancregrar Prilel";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74185B242F75AB4600B6CF25 /* Frameworks */ = {
@@ -42,11 +84,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C62E848D980076B0A4A9F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB39D13701E30B49AB40324 /* Pods_125Vulzancregrar_Prilel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56AF329B7A1ABAC12D0D7771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2687A60EE5B4DBB97847BD13 /* Pods-125Vulzancregrar Prilel.debug.xcconfig */,
+				8FA0178E6CC1C94915055EFC /* Pods-125Vulzancregrar Prilel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		74185B1E2F75AB4600B6CF25 = {
 			isa = PBXGroup;
 			children = (
-				74185B292F75AB4600B6CF25 /* 125Vulzancregrar Prilel */,
+				74185C5F2F75BF4C00B6CF25 /* 125Vulzancregrar Prilel */,
 				74185B282F75AB4600B6CF25 /* Products */,
+				56AF329B7A1ABAC12D0D7771 /* Pods */,
+				2C62E848D980076B0A4A9F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +119,186 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		74185C302F75BF4C00B6CF25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74185C2E2F75BF4C00B6CF25 /* AppLinks.swift */,
+				74185C2F2F75BF4C00B6CF25 /* GameModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74185C322F75BF4C00B6CF25 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				74185C312F75BF4C00B6CF25 /* AppStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		74185C342F75BF4C00B6CF25 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				74185C332F75BF4C00B6CF25 /* AppColors.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		74185C352F75BF4C00B6CF25 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				74185C302F75BF4C00B6CF25 /* Models */,
+				74185C322F75BF4C00B6CF25 /* Storage */,
+				74185C342F75BF4C00B6CF25 /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		74185C382F75BF4C00B6CF25 /* PuzzleDoor */ = {
+			isa = PBXGroup;
+			children = (
+				74185C362F75BF4C00B6CF25 /* PuzzleDoorView.swift */,
+				74185C372F75BF4C00B6CF25 /* PuzzleDoorViewModel.swift */,
+			);
+			path = PuzzleDoor;
+			sourceTree = "<group>";
+		};
+		74185C3B2F75BF4C00B6CF25 /* RelicHunt */ = {
+			isa = PBXGroup;
+			children = (
+				74185C392F75BF4C00B6CF25 /* RelicHuntView.swift */,
+				74185C3A2F75BF4C00B6CF25 /* RelicHuntViewModel.swift */,
+			);
+			path = RelicHunt;
+			sourceTree = "<group>";
+		};
+		74185C3E2F75BF4C00B6CF25 /* TribalTrail */ = {
+			isa = PBXGroup;
+			children = (
+				74185C3C2F75BF4C00B6CF25 /* TribalTrailView.swift */,
+				74185C3D2F75BF4C00B6CF25 /* TribalTrailViewModel.swift */,
+			);
+			path = TribalTrail;
+			sourceTree = "<group>";
+		};
+		74185C402F75BF4C00B6CF25 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				74185C382F75BF4C00B6CF25 /* PuzzleDoor */,
+				74185C3B2F75BF4C00B6CF25 /* RelicHunt */,
+				74185C3E2F75BF4C00B6CF25 /* TribalTrail */,
+				74185C3F2F75BF4C00B6CF25 /* ActivityRouterView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		74185C422F75BF4C00B6CF25 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				74185C412F75BF4C00B6CF25 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		74185C442F75BF4C00B6CF25 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				74185C432F75BF4C00B6CF25 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		74185C462F75BF4C00B6CF25 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74185C452F75BF4C00B6CF25 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74185C482F75BF4C00B6CF25 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				74185C472F75BF4C00B6CF25 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		74185C4A2F75BF4C00B6CF25 /* QuestLog */ = {
+			isa = PBXGroup;
+			children = (
+				74185C492F75BF4C00B6CF25 /* QuestLogView.swift */,
+			);
+			path = QuestLog;
+			sourceTree = "<group>";
+		};
+		74185C4C2F75BF4C00B6CF25 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				74185C4B2F75BF4C00B6CF25 /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		74185C4E2F75BF4C00B6CF25 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				74185C4D2F75BF4C00B6CF25 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		74185C4F2F75BF4C00B6CF25 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				74185C402F75BF4C00B6CF25 /* Activities */,
+				74185C422F75BF4C00B6CF25 /* Explore */,
+				74185C442F75BF4C00B6CF25 /* Home */,
+				74185C462F75BF4C00B6CF25 /* Main */,
+				74185C482F75BF4C00B6CF25 /* Onboarding */,
+				74185C4A2F75BF4C00B6CF25 /* QuestLog */,
+				74185C4C2F75BF4C00B6CF25 /* Result */,
+				74185C4E2F75BF4C00B6CF25 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		74185C532F75BF4C00B6CF25 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				74185C502F75BF4C00B6CF25 /* AdventureBackground.swift */,
+				74185C512F75BF4C00B6CF25 /* AdventureStyles.swift */,
+				74185C522F75BF4C00B6CF25 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		74185C542F75BF4C00B6CF25 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				74185C532F75BF4C00B6CF25 /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		74185C5F2F75BF4C00B6CF25 /* 125Vulzancregrar Prilel */ = {
+			isa = PBXGroup;
+			children = (
+				74185C352F75BF4C00B6CF25 /* Core */,
+				74185C4F2F75BF4C00B6CF25 /* Features */,
+				74185C542F75BF4C00B6CF25 /* Shared */,
+				74185C552F75BF4C00B6CF25 /* AppDelegate.swift */,
+				74185C562F75BF4C00B6CF25 /* Assets.xcassets */,
+				74185C572F75BF4C00B6CF25 /* ContentView.swift */,
+				74185C582F75BF4C00B6CF25 /* Info.plist */,
+				74185C5A2F75BF4C00B6CF25 /* LaunchScreen.storyboard */,
+				74185C5C2F75BF4C00B6CF25 /* Main.storyboard */,
+				74185C5D2F75BF4C00B6CF25 /* SceneDelegate.swift */,
+				74185C5E2F75BF4C00B6CF25 /* ViewController.swift */,
+			);
+			path = "125Vulzancregrar Prilel";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74185B3A2F75AB4700B6CF25 /* Build configuration list for PBXNativeTarget "125Vulzancregrar Prilel" */;
 			buildPhases = (
+				F9430999A63D04BB7D3208D3 /* [CP] Check Pods Manifest.lock */,
 				74185B232F75AB4600B6CF25 /* Sources */,
 				74185B242F75AB4600B6CF25 /* Frameworks */,
 				74185B252F75AB4600B6CF25 /* Resources */,
@@ -73,12 +315,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				74185B292F75AB4600B6CF25 /* 125Vulzancregrar Prilel */,
-			);
 			name = "125Vulzancregrar Prilel";
-			packageProductDependencies = (
-			);
 			productName = "125Vulzancregrar Prilel";
 			productReference = 74185B272F75AB4600B6CF25 /* 125Vulzancregrar Prilel.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +336,7 @@
 				};
 			};
 			buildConfigurationList = 74185B222F75AB4600B6CF25 /* Build configuration list for PBXProject "125Vulzancregrar Prilel" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +344,6 @@
 				Base,
 			);
 			mainGroup = 74185B1E2F75AB4600B6CF25;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 74185B282F75AB4600B6CF25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +358,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74185C792F75BF4C00B6CF25 /* Assets.xcassets in Resources */,
+				74185C7B2F75BF4C00B6CF25 /* LaunchScreen.storyboard in Resources */,
+				74185C7C2F75BF4C00B6CF25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9430999A63D04BB7D3208D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-125Vulzancregrar Prilel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74185B232F75AB4600B6CF25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74185C602F75BF4C00B6CF25 /* AppLinks.swift in Sources */,
+				74185C612F75BF4C00B6CF25 /* GameModels.swift in Sources */,
+				74185C622F75BF4C00B6CF25 /* AppStorage.swift in Sources */,
+				74185C632F75BF4C00B6CF25 /* AppColors.swift in Sources */,
+				74185C642F75BF4C00B6CF25 /* PuzzleDoorView.swift in Sources */,
+				74185C652F75BF4C00B6CF25 /* PuzzleDoorViewModel.swift in Sources */,
+				74185C662F75BF4C00B6CF25 /* RelicHuntView.swift in Sources */,
+				74185C672F75BF4C00B6CF25 /* RelicHuntViewModel.swift in Sources */,
+				74185C682F75BF4C00B6CF25 /* TribalTrailView.swift in Sources */,
+				74185C692F75BF4C00B6CF25 /* TribalTrailViewModel.swift in Sources */,
+				74185C6A2F75BF4C00B6CF25 /* ActivityRouterView.swift in Sources */,
+				74185C6B2F75BF4C00B6CF25 /* ExploreView.swift in Sources */,
+				74185C6C2F75BF4C00B6CF25 /* HomeView.swift in Sources */,
+				74185C6D2F75BF4C00B6CF25 /* MainTabView.swift in Sources */,
+				74185C6E2F75BF4C00B6CF25 /* OnboardingView.swift in Sources */,
+				74185C6F2F75BF4C00B6CF25 /* QuestLogView.swift in Sources */,
+				74185C702F75BF4C00B6CF25 /* ResultView.swift in Sources */,
+				74185C712F75BF4C00B6CF25 /* SettingsView.swift in Sources */,
+				74185C722F75BF4C00B6CF25 /* AdventureBackground.swift in Sources */,
+				74185C732F75BF4C00B6CF25 /* AdventureStyles.swift in Sources */,
+				74185C742F75BF4C00B6CF25 /* PrimaryButton.swift in Sources */,
+				74185C752F75BF4C00B6CF25 /* AppDelegate.swift in Sources */,
+				74185C762F75BF4C00B6CF25 /* ContentView.swift in Sources */,
+				74185C772F75BF4C00B6CF25 /* SceneDelegate.swift in Sources */,
+				74185C782F75BF4C00B6CF25 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		74185C5A2F75BF4C00B6CF25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74185C592F75BF4C00B6CF25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74185C5C2F75BF4C00B6CF25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74185C5B2F75BF4C00B6CF25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		74185B3B2F75AB4700B6CF25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2687A60EE5B4DBB97847BD13 /* Pods-125Vulzancregrar Prilel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +456,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "125Vulzancregrar Prilel/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vulzancregrar Prilel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-25Vulzancregrar-Prilel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pas.v8lz5ncr3gr8rpr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		74185B3C2F75AB4700B6CF25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA0178E6CC1C94915055EFC /* Pods-125Vulzancregrar Prilel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +495,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "125Vulzancregrar Prilel/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vulzancregrar Prilel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-25Vulzancregrar-Prilel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pas.v8lz5ncr3gr8rpr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -204,7 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -267,7 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
