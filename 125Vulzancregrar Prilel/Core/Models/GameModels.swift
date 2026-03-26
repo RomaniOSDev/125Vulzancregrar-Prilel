@@ -1,3 +1,10 @@
+//
+//  GameModels.swift
+//  125Vulzancregrar Prilel
+//
+//  Created by Pascal Mirel on 26.03.2026.
+//
+
 import Foundation
 
 enum Difficulty: String, CaseIterable, Codable {

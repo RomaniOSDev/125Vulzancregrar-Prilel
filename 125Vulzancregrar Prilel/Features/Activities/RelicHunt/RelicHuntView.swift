@@ -1,3 +1,10 @@
+//
+//  RelicHuntView.swift
+//  125Vulzancregrar Prilel
+//
+//  Created by Pascal Mirel on 26.03.2026.
+//
+
 import SwiftUI
 
 struct RelicHuntView: View {

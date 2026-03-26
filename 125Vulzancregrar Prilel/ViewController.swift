@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  125Vulzancregrar Prilel
 //
-//  Created by Роман Главацкий on 26.03.2026.
+//  Created by Pascal Mirel on 26.03.2026.
 //
 
 import UIKit
