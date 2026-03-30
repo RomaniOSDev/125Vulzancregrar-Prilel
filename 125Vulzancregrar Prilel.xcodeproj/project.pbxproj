@@ -35,6 +35,11 @@
 		74185C792F75BF4C00B6CF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74185C562F75BF4C00B6CF25 /* Assets.xcassets */; };
 		74185C7B2F75BF4C00B6CF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74185C5A2F75BF4C00B6CF25 /* LaunchScreen.storyboard */; };
 		74185C7C2F75BF4C00B6CF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74185C5C2F75BF4C00B6CF25 /* Main.storyboard */; };
+		744B242E2F79AFB100F2A8EB /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24292F79AFB100F2A8EB /* PersistenceManager.swift */; };
+		744B242F2F79AFB100F2A8EB /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B24282F79AFB100F2A8EB /* AppRouter.swift */; };
+		744B24302F79AFB100F2A8EB /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B242A2F79AFB100F2A8EB /* PrivacyWebView.swift */; };
+		744B24312F79AFB100F2A8EB /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B242B2F79AFB100F2A8EB /* SaveService.swift */; };
+		744B24322F79AFB100F2A8EB /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B242C2F79AFB100F2A8EB /* StartMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +74,11 @@
 		74185C5B2F75BF4C00B6CF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74185C5D2F75BF4C00B6CF25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74185C5E2F75BF4C00B6CF25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		744B24282F79AFB100F2A8EB /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		744B24292F79AFB100F2A8EB /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		744B242A2F79AFB100F2A8EB /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		744B242B2F79AFB100F2A8EB /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		744B242C2F79AFB100F2A8EB /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		8FA0178E6CC1C94915055EFC /* Pods-125Vulzancregrar Prilel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-125Vulzancregrar Prilel.release.xcconfig"; path = "Target Support Files/Pods-125Vulzancregrar Prilel/Pods-125Vulzancregrar Prilel.release.xcconfig"; sourceTree = "<group>"; };
 		EFB39D13701E30B49AB40324 /* Pods_125Vulzancregrar_Prilel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_125Vulzancregrar_Prilel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -295,8 +305,21 @@
 				74185C5C2F75BF4C00B6CF25 /* Main.storyboard */,
 				74185C5D2F75BF4C00B6CF25 /* SceneDelegate.swift */,
 				74185C5E2F75BF4C00B6CF25 /* ViewController.swift */,
+				744B242D2F79AFB100F2A8EB /* Router */,
 			);
 			path = "125Vulzancregrar Prilel";
+			sourceTree = "<group>";
+		};
+		744B242D2F79AFB100F2A8EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				744B24282F79AFB100F2A8EB /* AppRouter.swift */,
+				744B24292F79AFB100F2A8EB /* PersistenceManager.swift */,
+				744B242A2F79AFB100F2A8EB /* PrivacyWebView.swift */,
+				744B242B2F79AFB100F2A8EB /* SaveService.swift */,
+				744B242C2F79AFB100F2A8EB /* StartMainView.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +428,11 @@
 				74185C662F75BF4C00B6CF25 /* RelicHuntView.swift in Sources */,
 				74185C672F75BF4C00B6CF25 /* RelicHuntViewModel.swift in Sources */,
 				74185C682F75BF4C00B6CF25 /* TribalTrailView.swift in Sources */,
+				744B242E2F79AFB100F2A8EB /* PersistenceManager.swift in Sources */,
+				744B242F2F79AFB100F2A8EB /* AppRouter.swift in Sources */,
+				744B24302F79AFB100F2A8EB /* PrivacyWebView.swift in Sources */,
+				744B24312F79AFB100F2A8EB /* SaveService.swift in Sources */,
+				744B24322F79AFB100F2A8EB /* StartMainView.swift in Sources */,
 				74185C692F75BF4C00B6CF25 /* TribalTrailViewModel.swift in Sources */,
 				74185C6A2F75BF4C00B6CF25 /* ActivityRouterView.swift in Sources */,
 				74185C6B2F75BF4C00B6CF25 /* ExploreView.swift in Sources */,
@@ -453,7 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "125Vulzancregrar Prilel/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Vulzancregrar Prilel";
@@ -468,7 +496,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pas.v8lz5ncr3gr8rpr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -492,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "125Vulzancregrar Prilel/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Vulzancregrar Prilel";
@@ -507,7 +535,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pas.v8lz5ncr3gr8rpr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
